@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-
+//test
 const InputField = ({
     label,
     type = 'text',
@@ -19,18 +19,18 @@ const InputField = ({
         setShowPassword(!showPassword);
     };
 
-   
+
     const inputType = type === 'password' && showPassword ? 'text' : type;
 
     return (
         <div className="mb-6">
-         
+
             <label className="block text-sm font-medium text-gray-700 mb-2">
                 {label}
                 {required && <span className="text-red-500 ml-1">*</span>}
             </label>
 
-     
+
             <div className="relative">
                 <input
                     type={inputType}
@@ -54,7 +54,7 @@ const InputField = ({
           `}
                 />
 
-    
+
                 {showPasswordToggle && (
                     <button
                         type="button"
