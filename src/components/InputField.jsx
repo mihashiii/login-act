@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-//test new
+//test
 const InputField = ({
     label,
     type = 'text',
